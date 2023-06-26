@@ -1,9 +1,12 @@
 {
-  "name": "invalid-cypress-config",
+  "name": "nx-invalid-cypress-config",
   "version": "0.0.0",
   "license": "MIT",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx run test:serve:development",
+    "e2e": "nx run test-e2e:e2e"
+  },
   "private": true,
   "devDependencies": {
     "@nx/cypress": "^16.4.0",
